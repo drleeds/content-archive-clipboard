@@ -1,0 +1,101 @@
+/**
+ * Content Archive Clipboard - Admin Styles
+ */
+
+.cac-admin-info {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.cac-admin-info h2 {
+    margin-top: 0;
+    color: #23282d;
+    font-size: 18px;
+}
+
+.cac-admin-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.cac-admin-info ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.cac-admin-info li {
+    margin: 8px 0;
+    color: #666;
+}
+
+.cac-admin-info code {
+    background: #f1f1f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+    color: #d14;
+}
+
+.form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+    vertical-align: top;
+}
+
+.form-table td {
+    padding: 15px 10px;
+}
+
+.form-table input[type="text"],
+.form-table input[type="number"] {
+    width: 300px;
+}
+
+.form-table .description {
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+}
+
+.content-archive-clipboard-preview {
+    margin: 20px 0;
+}
+
+.content-archive-clipboard-preview .components-panel__body {
+    border: none;
+    margin-bottom: 0;
+}
+
+/* Block Editor Styles */
+.wp-block-content-archive-clipboard-archive {
+    margin: 20px 0;
+}
+
+.block-editor-block-list__layout .wp-block-content-archive-clipboard-archive {
+    margin: 1em 0;
+}
+
+/* Settings Page Responsive */
+@media (max-width: 782px) {
+    .form-table th,
+    .form-table td {
+        display: block;
+        width: auto;
+        padding: 10px 0;
+    }
+    
+    .form-table th {
+        padding-bottom: 0;
+    }
+    
+    .form-table input[type="text"],
+    .form-table input[type="number"] {
+        width: 100%;
+        max-width: 300px;
+    }
+}
